@@ -45,6 +45,6 @@ public class SNote : MonoBehaviour
 
         rb.linearVelocity = new Vector3(targetSPD.x, rb.linearVelocity.y, targetSPD.z);
         
-        Debug.Log($"targetSPD: {targetSPD}");
+        //Debug.Log($"targetSPD: {targetSPD}");
     }
 }

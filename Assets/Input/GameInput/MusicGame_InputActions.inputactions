@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "IA_MusicGame",
+    "name": "MusicGame_InputActions",
     "maps": [
         {
             "name": "Player",
