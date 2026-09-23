@@ -30,6 +30,7 @@ public class SPlayerController : MonoBehaviour
 
     private void PerformHitNote(InputAction.CallbackContext context, int laneIndex)
     {
+        if (laneIndex == 0) return;
         accDetect.HitNote(laneIndex);
     }
 }

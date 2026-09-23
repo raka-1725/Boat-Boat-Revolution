@@ -17,6 +17,9 @@ public class SScoreManager : MonoBehaviour
 
         ScoreInstance = this;
         DontDestroyOnLoad(gameObject);
+        
+        ResetComboCount();
+        ResetScore();
     }
 
     public void AddScore(int scoreToAdd)

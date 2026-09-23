@@ -6,8 +6,12 @@ public class SDestroyNodes : MonoBehaviour
     {
         if (other.CompareTag("Note"))
         {
+            Debug.Log($"Missed Note Destroyed ");
+            SScoreManager.ScoreInstance.AddScore(-10);
+            SScoreManager.ScoreInstance.ResetComboCount();
+            
             Destroy(other.gameObject);
-            Debug.Log($"Note destroy");
+            //Debug.Log($"Note destroy");
         }
     }
 }

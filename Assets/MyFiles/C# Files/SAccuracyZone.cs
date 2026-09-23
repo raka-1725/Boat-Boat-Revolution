@@ -16,12 +16,12 @@ public class SAccuracyZone : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Note")) return;
-        AccDetect.NoteEntered(laneIndex, zoneIndex, other);
+        AccDetect.NoteEntered(laneIndex - 1, zoneIndex - 1, other.GetComponent<SNote>());
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (!other.CompareTag("Note")) return;
-        AccDetect.NoteExited(laneIndex, zoneIndex, other);
+        AccDetect.NoteExited(laneIndex - 1, zoneIndex - 1, other.GetComponent<SNote>());
     }
 }
