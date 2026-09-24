@@ -101,7 +101,6 @@ GameObject:
   - component: {fileID: 4252641883002579502}
   - component: {fileID: 6371852657733117540}
   - component: {fileID: 848851100259137484}
-  - component: {fileID: 3436978954705545724}
   - component: {fileID: 5766574252887434493}
   m_Layer: 0
   m_Name: Note
@@ -138,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 849c703deb2b0bc46abf43b29c72329e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SNote
-  speed: 4
+  speed: 7
   NoteType: 1
 --- !u!135 &848851100259137484
 SphereCollider:
@@ -161,20 +160,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.36
   m_Center: {x: 0, y: 0, z: 0.45}
---- !u!114 &3436978954705545724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2243700013797389377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 849c703deb2b0bc46abf43b29c72329e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SNote
-  speed: 30
-  NoteType: 0
 --- !u!54 &5766574252887434493
 Rigidbody:
   m_ObjectHideFlags: 0

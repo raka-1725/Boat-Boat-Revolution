@@ -49,6 +49,9 @@ public class SAccuracyDetect : MonoBehaviour
             Debug.LogWarning($"Note hit EXCELLENT");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
             SScoreManager.ScoreInstance.AddCombo(1);
+            
+            DestroyNode(laneIndex, 0);
+            DestroyNode(laneIndex, 1);
         }
         else if ((z2 && z3))
         {
@@ -56,6 +59,9 @@ public class SAccuracyDetect : MonoBehaviour
             Debug.LogWarning($"Note hit EXCELLENT");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
             SScoreManager.ScoreInstance.AddCombo(1);
+            
+            DestroyNode(laneIndex, 1);
+            DestroyNode(laneIndex, 2);
         }
         else if(z1 || z3)
         {
@@ -63,6 +69,9 @@ public class SAccuracyDetect : MonoBehaviour
             Debug.LogWarning($"Note hit GOOD");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
             SScoreManager.ScoreInstance.AddCombo(1);
+            DestroyNode(laneIndex, 0);
+            DestroyNode(laneIndex, 2);
+            
         }
         else if(z2)
         {
@@ -71,6 +80,7 @@ public class SAccuracyDetect : MonoBehaviour
             Debug.LogWarning($"Note hit PERFECT");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
             SScoreManager.ScoreInstance.AddCombo(1);
+            DestroyNode(laneIndex, 1);
         }
         else
         {
@@ -90,7 +100,15 @@ public class SAccuracyDetect : MonoBehaviour
         activeNotes[laneIndex, zoneIndex] = null;
         //Debug.Log($"Note Delete : Lane {laneIndex} Zone {zoneIndex}");
     }
-    
-    
-    
+
+    private void DestroyNode(int laneIndex, int zoneIndex)
+    {
+        if (activeNotes[laneIndex - 1, zoneIndex] != null)
+        {
+            Destroy(activeNotes[laneIndex - 1, zoneIndex].gameObject);
+        }
+        activeNotes[laneIndex, zoneIndex] = null;
+    }
+
+
 }
