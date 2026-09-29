@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class SUIManager : MonoBehaviour
 {
-
-
+    
     [SerializeField] TextMeshProUGUI ScoreText;
-    [SerializeField]  TextMeshProUGUI ComboText;
+    [SerializeField] TextMeshProUGUI ComboText;
 
 
     private void OnEnable()
