@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8600162089387938200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
+  m_Name: Audio Track
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+  m_TrackProperties:
+    volume: 1
+    stereoPan: 0
+    spatialBlend: 0
 --- !u!114 &-8230400983432777187
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22,7 +49,8 @@ MonoBehaviour:
   m_Children: []
   m_Clips: []
   m_Markers:
-    m_Objects: []
+    m_Objects:
+    - {fileID: 4031383984963781985}
 --- !u!114 &-5533505447743653645
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35,8 +63,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
-  m_Time: 0.85
+  m_Time: 4.816666666666666
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
+--- !u!114 &-4011329950347321780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 0
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-3994011575920817528
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -49,8 +93,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
-  m_Time: 0.16666666666666666
+  m_Time: 0
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-1086298928730276297
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -73,7 +118,8 @@ MonoBehaviour:
   m_Children: []
   m_Clips: []
   m_Markers:
-    m_Objects: []
+    m_Objects:
+    - {fileID: 6531873556784117880}
 --- !u!114 &-58034621276216221
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -96,7 +142,8 @@ MonoBehaviour:
   m_Children: []
   m_Clips: []
   m_Markers:
-    m_Objects: []
+    m_Objects:
+    - {fileID: -4011329950347321780}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,16 +158,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.TimelineAsset
   m_Version: 0
   m_Tracks:
+  - {fileID: -8600162089387938200}
   - {fileID: 2908265157365517419}
   - {fileID: -8230400983432777187}
   - {fileID: -58034621276216221}
   - {fileID: -1086298928730276297}
-  m_FixedDuration: 0.85
+  m_FixedDuration: 10.183333333333334
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 1
   m_MarkerTrack: {fileID: 0}
+--- !u!114 &873899224229348426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 6.8
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &1776685850396929680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -133,8 +196,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
-  m_Time: 0.4666666666666667
+  m_Time: 2.3833333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &2908265157365517419
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -161,3 +225,34 @@ MonoBehaviour:
     - {fileID: -5533505447743653645}
     - {fileID: -3994011575920817528}
     - {fileID: 1776685850396929680}
+    - {fileID: 873899224229348426}
+--- !u!114 &4031383984963781985
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 0
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &6531873556784117880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 0
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1

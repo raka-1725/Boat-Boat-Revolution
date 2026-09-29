@@ -4,6 +4,7 @@ using UnityEngine.Playables;
 public class SpawnNoteBehaviour : PlayableBehaviour
 {
     public GameObject notePrefab;
+    public SNote.ENoteType noteType;
     
     private bool bHasSpawned = false;
 
@@ -17,7 +18,7 @@ public class SpawnNoteBehaviour : PlayableBehaviour
         {
             if (spawner != null && notePrefab != null)
             {
-                spawner.SpawnPrefab(notePrefab);
+                spawner.SpawnPrefab(notePrefab, noteType);
             }
             bHasSpawned = true;
         }

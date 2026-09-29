@@ -13,12 +13,14 @@ public class LaneSpawner : MonoBehaviour, INotificationReceiver
     public void OnNotify(Playable origin, INotification notification, object context)
     {
         if (notification is SpawnNoteMarker marker)
-            SpawnPrefab(marker.NotePrefab);
+            SpawnPrefab(marker.NotePrefab, marker.NoteType);
     }
 
-    public void SpawnPrefab(GameObject prefab)
+    public void SpawnPrefab(GameObject prefab, SNote.ENoteType noteType)
     {
         if (prefab == null) return;
-        Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
+        GameObject Note = Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
+        Note.GetComponent<SNote>().NoteType = noteType;
+
     }
 }
