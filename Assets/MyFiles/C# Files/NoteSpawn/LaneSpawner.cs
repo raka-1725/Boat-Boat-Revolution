@@ -21,6 +21,7 @@ public class LaneSpawner : MonoBehaviour, INotificationReceiver
         if (prefab == null) return;
         GameObject Note = Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
         Note.GetComponent<SNote>().NoteType = noteType;
+        Note.GetComponent<SNote>().Initialize(noteType);
 
     }
 }
