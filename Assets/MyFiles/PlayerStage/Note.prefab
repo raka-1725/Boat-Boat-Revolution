@@ -81,12 +81,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7481534693414441064, guid: 4c9b6e3de7a3d80478694074e5543eb4, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 4c9b6e3de7a3d80478694074e5543eb4, type: 3}
+  m_Color: {r: 1, g: 0.7182172, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 10.76, y: 9.32}
+  m_Size: {x: 10.8, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -230,6 +230,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SNote
   speed: 7
+  SR: {fileID: 1704493381863520953}
+  NormalNoteColor: {r: 1, g: 1, b: 1, a: 1}
+  HighNoteColor: {r: 1, g: 0.6290647, b: 0, a: 1}
   NoteType: 1
 --- !u!135 &848851100259137484
 SphereCollider:
@@ -251,7 +254,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.36
-  m_Center: {x: 0, y: 0, z: 0.45}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4624690861569186927
 Rigidbody:
   m_ObjectHideFlags: 0

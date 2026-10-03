@@ -6,6 +6,10 @@ public class SNote : MonoBehaviour
     private Rigidbody rb;
     public float speed = 5.0f;
 
+    [SerializeField] private SpriteRenderer SR;
+    [SerializeField] private Color NormalNoteColor;
+    [SerializeField] private Color HighNoteColor;
+    
     //struct
     public struct NoteInfo
     {
@@ -32,6 +36,14 @@ public class SNote : MonoBehaviour
     public void Initialize(ENoteType type)
     {
         NoteType = type;
+        if (NoteType == ENoteType.High)
+        {
+            SR.color = HighNoteColor;
+        }
+        else
+        {
+            SR.color = NormalNoteColor;
+        }
     }
     
     private void Start()
