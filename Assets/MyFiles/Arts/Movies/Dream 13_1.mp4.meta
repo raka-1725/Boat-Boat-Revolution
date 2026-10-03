@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 509b7b8debc4d944289f1e2ea726e246
+guid: b88e077deebf160419b42924b76dfbc9
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 3
@@ -15,7 +15,16 @@ VideoClipImporter:
   targetSettings:
     :
       enableTranscoding: 1
-      codec: 2
+      codec: 0
+      resizeFormat: 0
+      aspectRatio: 0
+      customWidth: 854
+      customHeight: 480
+      bitrateMode: 2
+      spatialQuality: 2
+    Standalone:
+      enableTranscoding: 1
+      codec: 0
       resizeFormat: 0
       aspectRatio: 0
       customWidth: 854
