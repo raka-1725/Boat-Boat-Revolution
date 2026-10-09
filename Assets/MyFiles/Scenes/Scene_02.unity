@@ -1301,7 +1301,7 @@ GameObject:
   - component: {fileID: 546857009}
   - component: {fileID: 546857008}
   m_Layer: 0
-  m_Name: ScoreManager
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4074,6 +4074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1755883623}
   - component: {fileID: 1755883622}
+  - component: {fileID: 1755883624}
   m_Layer: 0
   m_Name: Lane Note Spawner
   m_TagString: Untagged
@@ -4104,6 +4105,8 @@ PlayableDirector:
     value: {fileID: 391226747}
   - key: {fileID: -1086298928730276297, guid: ed883f004f4431f4696e9eca1f7d8094, type: 2}
     value: {fileID: 699479438}
+  - key: {fileID: -6405032337956791993, guid: ed883f004f4431f4696e9eca1f7d8094, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1755883623
@@ -4125,6 +4128,36 @@ Transform:
   - {fileID: 699479440}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1755883624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755883621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 3174aba2064168648a737657c4e77bac, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1755883621}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1756107302
 GameObject:
   m_ObjectHideFlags: 0
