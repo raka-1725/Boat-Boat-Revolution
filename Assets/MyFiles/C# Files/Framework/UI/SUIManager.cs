@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class SUIManager : MonoBehaviour
 {
-    
+    [Header("Texts")]
     [SerializeField] TextMeshProUGUI ScoreText;
     [SerializeField] TextMeshProUGUI ComboText;
+    
+    [Header("UI")] 
+    [SerializeField] private GameObject WinUI;
+    [SerializeField] private GameObject LoseUI;
 
 
     private void OnEnable()
@@ -30,4 +34,18 @@ public class SUIManager : MonoBehaviour
     {
         ComboText.text = "Combo: " + combo;
     }
+    
+    public void SpawnWinUI(int score, int combo)
+    {
+        WinUI.SetActive(true);
+        LoseUI.SetActive(false);
+    }
+
+    public void SpawnLoseUI(int score, int combo)
+    {
+        LoseUI.SetActive(true);
+        WinUI.SetActive(false);
+    }
+    
+    
 }

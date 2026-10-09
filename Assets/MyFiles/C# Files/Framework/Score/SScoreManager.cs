@@ -37,7 +37,7 @@ public class SScoreManager : MonoBehaviour
     {
         Score += scoreToAdd;
         OnScoreChange?.Invoke(Score);
-        Debug.Log($"Score {Score}");
+        //Debug.Log($"Score {Score}");
     }
 
     public void AddCombo(int comboToAdd)
