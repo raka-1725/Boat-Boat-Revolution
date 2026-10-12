@@ -30,4 +30,9 @@ public class SGameManager : MonoBehaviour
             UIManager.SpawnLoseUI(score, combo);
         }
     }
+
+    public void CountDown(int count)
+    {
+        UIManager.UpdateCountDown(count);
+    }
 }

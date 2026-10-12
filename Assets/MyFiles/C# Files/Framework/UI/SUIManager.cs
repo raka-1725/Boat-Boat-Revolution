@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
@@ -17,6 +18,11 @@ public class SUIManager : MonoBehaviour
     
     [Header("Status Bar")]
     [SerializeField] private Slider StatusSlider;
+    [SerializeField] private PlayableDirector PlayableDirector;
+    
+    [Header("CountDown")]
+    [SerializeField] private Image CountDownBG;
+    [SerializeField] private TextMeshProUGUI CountDownText;
 
     private void OnEnable()
     {
@@ -28,6 +34,17 @@ public class SUIManager : MonoBehaviour
     {
         SScoreManager.OnScoreChange -= UpdateScoreUI;
         SScoreManager.OnComboCountChange -= UpdateComboUI;
+    }
+
+    private void Update()
+    {
+        UpdateProgressSliderValue();
+    }
+
+    private void UpdateProgressSliderValue()
+    {
+        float progress = (float) (PlayableDirector.time / PlayableDirector.duration);
+        StatusSlider.value = progress;
     }
 
     public void UpdateScoreUI(int score)
@@ -106,4 +123,36 @@ public class SUIManager : MonoBehaviour
         yield return null;
     }
 
+    private void InitializeCountDown()
+    {
+        CountDownBG.gameObject.SetActive(true);
+        CountDownText.gameObject.SetActive(true);
+        CountDownText.text = "3";
+    }
+
+    public void UpdateCountDown(int count)
+    {
+        if (count <= 0)
+        {
+            CountDownText.text = "Go";
+            StartCoroutine(CountDownEnd());
+        }
+        else if( count >= 3)
+        {
+            InitializeCountDown();
+        }
+        else
+        {
+            CountDownText.text = count.ToString();
+        }
+        
+    }
+
+    private IEnumerator CountDownEnd()
+    {
+        yield return new WaitForSeconds(0.5f);
+        CountDownBG.gameObject.SetActive(false);
+        CountDownText.gameObject.SetActive(false);
+        yield return null;
+    }
 }
