@@ -3495,7 +3495,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &937831935
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4520,7 +4520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1345863346
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6290,6 +6290,9 @@ MonoBehaviour:
     m_Signals:
     - {fileID: 11400000, guid: 3174aba2064168648a737657c4e77bac, type: 2}
     - {fileID: 11400000, guid: ef02b3d3b6232cd4cb7b75ff5b560f27, type: 2}
+    - {fileID: 11400000, guid: 63de4ad19fc053e49baabc0bfe2ceab5, type: 2}
+    - {fileID: 11400000, guid: ec46546035155d74d9c93bae96d5d193, type: 2}
+    - {fileID: 11400000, guid: 981ab980c33954a42a846a34ef573245, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -6314,11 +6317,53 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
+            m_IntArgument: 3
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 1
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 546857010}
+          m_TargetAssemblyTypeName: SGameManager, Assembly-CSharp
+          m_MethodName: CountDown
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 546857010}
+          m_TargetAssemblyTypeName: SGameManager, Assembly-CSharp
+          m_MethodName: CountDown
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 546857010}
+          m_TargetAssemblyTypeName: SGameManager, Assembly-CSharp
+          m_MethodName: CountDown
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1756107302
 GameObject:
   m_ObjectHideFlags: 0
