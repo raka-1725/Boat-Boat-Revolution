@@ -14,7 +14,9 @@ public class SUIManager : MonoBehaviour
     [Header("UI")] 
     [SerializeField] private GameObject WinUI;
     [SerializeField] private GameObject LoseUI;
-
+    
+    [Header("Status Bar")]
+    [SerializeField] private Slider StatusSlider;
 
     private void OnEnable()
     {
@@ -43,48 +45,65 @@ public class SUIManager : MonoBehaviour
         LoseUI.SetActive(false);
         WinUI.SetActive(true);
         StartCoroutine(Fade(1f, WinUI.GetComponent<Image>(), 1.2f));
-        GameEndSequence(WinUI);
+        StartCoroutine(GameEndSequence(WinUI, true));
     }
 
     public void SpawnLoseUI(int score, int combo)
     {
         WinUI.SetActive(false);
         LoseUI.SetActive(true);
-        StartCoroutine(Fade(1f, LoseUI.GetComponent<Image>(), 1.2f));
-        GameEndSequence(LoseUI);
+        StartCoroutine(GameEndSequence(LoseUI,  false));
     }
 
-    private IEnumerator Fade(float TargetA, Image imageComp, float fadeDuration)
+    private IEnumerator Fade(float targetA, Image imageComp, float fadeDuration)
     {
-        float currentA = imageComp.color.a;
+        Color color = imageComp.color;
+        
+        color.a = 0f;
+        imageComp.color = color;
+
         float elapsed = 0f;
 
         while (elapsed < fadeDuration)
         {
             elapsed += Time.deltaTime;
-            
-            Color color = imageComp.color;
-            color.a = Mathf.Lerp(currentA,TargetA, elapsed/fadeDuration);
+
+            color.a = Mathf.Lerp(0f, targetA, elapsed / fadeDuration);
+            imageComp.color = color;
+
             yield return null;
         }
-        
-        Color finalcolor = imageComp.color;
-        finalcolor.a = TargetA;
-        imageComp.color = finalcolor;
+
+        color.a = targetA;
+        imageComp.color = color;
     }
 
-    private void GameEndSequence(GameObject StateUI)
+    private IEnumerator GameEndSequence(GameObject StateUI, bool bWin)
     {
         SGameEndUI UI = StateUI.GetComponent<SGameEndUI>();
+
+        if (bWin)
+        {
+            yield return StartCoroutine(Fade(1f, WinUI.GetComponent<Image>(), 1.2f));
+        }
+        else
+        {
+            yield return StartCoroutine(Fade(1f, LoseUI.GetComponent<Image>(), 1.2f));
+        }
         
-        UI.PlayVideo(true);
+        yield return new WaitForSeconds(0.3f);
+        
         UI.ActiveContent(true);
+        yield return new WaitForSeconds(0.3f);
+        UI.PlayVideo(true);
         
         TextMeshProUGUI Score = UI.GetScoreText();
         TextMeshProUGUI Combo = UI.GetComboText();
 
         Score.text = "Score: " + SScoreManager.ScoreInstance.Score;
         Combo.text = "Combo: " + SScoreManager.ScoreInstance.ComboCount;
+        
+        yield return null;
     }
 
 }

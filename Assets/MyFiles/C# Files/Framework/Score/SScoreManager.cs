@@ -26,6 +26,8 @@ public class SScoreManager : MonoBehaviour
         ResetScore();
 
         SetUI();
+        
+      Score = 1000;
     }
 
     private void SetUI()
