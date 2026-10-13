@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: b4fafcc818185c141bbc527832028a05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7563403108093305406
+    second: Transparent-Fade-UI_0
+  - first:
+      213: 1917557086495560647
+    second: Transparent-Fade-UI_1
+  - first:
+      213: -6707577182233980603
+    second: Transparent-Fade-UI_2
+  - first:
+      213: -7654195754292824083
+    second: Transparent-Fade-UI_3
+  - first:
+      213: -2972822389078716311
+    second: Transparent-Fade-UI_4
+  - first:
+      213: -7871306334622160326
+    second: Transparent-Fade-UI_5
+  - first:
+      213: -8734573020843488965
+    second: Transparent-Fade-UI_6
+  - first:
+      213: 8782245760502237443
+    second: Transparent-Fade-UI_7
+  - first:
+      213: 2949419506418580591
+    second: Transparent-Fade-UI_8
+  - first:
+      213: -8396276180686831211
+    second: Transparent-Fade-UI_9
+  - first:
+      213: 6955300296655792707
+    second: Transparent-Fade-UI_10
+  - first:
+      213: 3100605645143273420
+    second: Transparent-Fade-UI_11
+  - first:
+      213: -6936043886788147111
+    second: Transparent-Fade-UI_12
+  - first:
+      213: 5134152482465279031
+    second: Transparent-Fade-UI_13
+  - first:
+      213: 7061163634723689370
+    second: Transparent-Fade-UI_14
+  - first:
+      213: -2619480905444947328
+    second: Transparent-Fade-UI_15
+  - first:
+      213: -5229886994783057113
+    second: Transparent-Fade-UI_16
+  - first:
+      213: -2055927235839402765
+    second: Transparent-Fade-UI_17
+  - first:
+      213: -4296756189864384818
+    second: Transparent-Fade-UI_18
+  - first:
+      213: 8774532866671780403
+    second: Transparent-Fade-UI_19
+  - first:
+      213: -6544369716097529517
+    second: Transparent-Fade-UI_20
+  - first:
+      213: 2094095014335373387
+    second: Transparent-Fade-UI_21
+  - first:
+      213: 3307240432137867499
+    second: Transparent-Fade-UI_22
+  - first:
+      213: 782285618484736369
+    second: Transparent-Fade-UI_23
+  - first:
+      213: -5630661642120719649
+    second: Transparent-Fade-UI_24
+  - first:
+      213: 5322161268929092492
+    second: Transparent-Fade-UI_25
+  - first:
+      213: -3535023880200773731
+    second: Transparent-Fade-UI_26
+  - first:
+      213: -5008358276945628108
+    second: Transparent-Fade-UI_27
+  - first:
+      213: 3180722656030476962
+    second: Transparent-Fade-UI_28
+  - first:
+      213: -4985456737269115080
+    second: Transparent-Fade-UI_29
+  - first:
+      213: -2278490237941466851
+    second: Transparent-Fade-UI_30
+  - first:
+      213: 9180320490422325254
+    second: Transparent-Fade-UI_31
+  - first:
+      213: 5940454081073038773
+    second: Transparent-Fade-UI_32
+  - first:
+      213: 5397297622068997126
+    second: Transparent-Fade-UI_33
+  - first:
+      213: -7543537029377293925
+    second: Transparent-Fade-UI_34
+  - first:
+      213: 3418015569385466288
+    second: Transparent-Fade-UI_35
+  - first:
+      213: -4446381746328024308
+    second: Transparent-Fade-UI_36
+  - first:
+      213: 6777506246107404719
+    second: Transparent-Fade-UI_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1901
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32acfedd0b96f860800000000000000
+      internalID: 7563403108093305406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_1
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1011
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3d911b2088c9a10800000000000000
+      internalID: 1917557086495560647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_2
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 918
+        width: 48
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5419d6d4716e9e2a0800000000000000
+      internalID: -6707577182233980603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_3
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 963
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7b210e385d6c590800000000000000
+      internalID: -7654195754292824083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_4
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 1021
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96092aea9c96eb6d0800000000000000
+      internalID: -2972822389078716311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_5
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 983
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a6096b79083c290800000000000000
+      internalID: -7871306334622160326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_6
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 922
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39c9e38d1098c680800000000000000
+      internalID: -8734573020843488965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_7
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1033
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3098ae42dfdc0e970800000000000000
+      internalID: 8782245760502237443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_8
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 883
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cffa51a617ee820800000000000000
+      internalID: 2949419506418580591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_9
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 870
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591861e8c4f6a7b80800000000000000
+      internalID: -8396276180686831211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_10
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 813
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a6650e4c0368060800000000000000
+      internalID: 6955300296655792707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_11
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 808
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfe5531860970b20800000000000000
+      internalID: 3100605645143273420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_12
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 772
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958097d65d83ebf90800000000000000
+      internalID: -6936043886788147111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_13
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 747
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c680c1b7c204740800000000000000
+      internalID: 5134152482465279031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_14
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 728
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a939c940aea4ef160800000000000000
+      internalID: 7061163634723689370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_15
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 713
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a090fbefbb5abd0800000000000000
+      internalID: -2619480905444947328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_16
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 720
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b4584cc75bb67b0800000000000000
+      internalID: -5229886994783057113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_17
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 671
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcddbf5211e773e0800000000000000
+      internalID: -2055927235839402765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_18
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 676
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec62ca0b20bde54c0800000000000000
+      internalID: -4296756189864384818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_19
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 628
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33226fb172765c970800000000000000
+      internalID: 8774532866671780403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_20
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 589
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359ce21ba6abd25a0800000000000000
+      internalID: -6544369716097529517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_21
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 584
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40606f0258bf0d10800000000000000
+      internalID: 2094095014335373387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_22
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 515
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0136886ada5ed20800000000000000
+      internalID: 3307240432137867499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_23
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 517
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171fda210ac3bda00800000000000000
+      internalID: 782285618484736369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_24
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 506
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd21afaa11fdbd1b0800000000000000
+      internalID: -5630661642120719649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_25
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 464
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b5cdfd97d1cd940800000000000000
+      internalID: 5322161268929092492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_26
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 457
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f1c14a28211fec0800000000000000
+      internalID: -3535023880200773731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_27
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 411
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434b4cabeacbe7ab0800000000000000
+      internalID: -5008358276945628108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_28
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 352
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aacbb94762342c20800000000000000
+      internalID: 3180722656030476962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_29
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 262
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8371ff3f28910dab0800000000000000
+      internalID: -4985456737269115080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_30
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 232
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19bd47533d2160e0800000000000000
+      internalID: -2278490237941466851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_31
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 199
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600dcdbb8dc076f70800000000000000
+      internalID: 9180320490422325254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_32
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 187
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5c0ea438bb07250800000000000000
+      internalID: 5940454081073038773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_33
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 156
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cab76579d07ea40800000000000000
+      internalID: 5397297622068997126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_34
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9106f50a09ff4790800000000000000
+      internalID: -7543537029377293925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_35
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 138
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9a9f90d0b3f6f20800000000000000
+      internalID: 3418015569385466288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_36
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 39
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b46521c574b42c0800000000000000
+      internalID: -4446381746328024308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent-Fade-UI_37
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 4
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa91936a50a8e0e50800000000000000
+      internalID: 6777506246107404719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Transparent-Fade-UI_0: 7563403108093305406
+      Transparent-Fade-UI_1: 1917557086495560647
+      Transparent-Fade-UI_10: 6955300296655792707
+      Transparent-Fade-UI_11: 3100605645143273420
+      Transparent-Fade-UI_12: -6936043886788147111
+      Transparent-Fade-UI_13: 5134152482465279031
+      Transparent-Fade-UI_14: 7061163634723689370
+      Transparent-Fade-UI_15: -2619480905444947328
+      Transparent-Fade-UI_16: -5229886994783057113
+      Transparent-Fade-UI_17: -2055927235839402765
+      Transparent-Fade-UI_18: -4296756189864384818
+      Transparent-Fade-UI_19: 8774532866671780403
+      Transparent-Fade-UI_2: -6707577182233980603
+      Transparent-Fade-UI_20: -6544369716097529517
+      Transparent-Fade-UI_21: 2094095014335373387
+      Transparent-Fade-UI_22: 3307240432137867499
+      Transparent-Fade-UI_23: 782285618484736369
+      Transparent-Fade-UI_24: -5630661642120719649
+      Transparent-Fade-UI_25: 5322161268929092492
+      Transparent-Fade-UI_26: -3535023880200773731
+      Transparent-Fade-UI_27: -5008358276945628108
+      Transparent-Fade-UI_28: 3180722656030476962
+      Transparent-Fade-UI_29: -4985456737269115080
+      Transparent-Fade-UI_3: -7654195754292824083
+      Transparent-Fade-UI_30: -2278490237941466851
+      Transparent-Fade-UI_31: 9180320490422325254
+      Transparent-Fade-UI_32: 5940454081073038773
+      Transparent-Fade-UI_33: 5397297622068997126
+      Transparent-Fade-UI_34: -7543537029377293925
+      Transparent-Fade-UI_35: 3418015569385466288
+      Transparent-Fade-UI_36: -4446381746328024308
+      Transparent-Fade-UI_37: 6777506246107404719
+      Transparent-Fade-UI_4: -2972822389078716311
+      Transparent-Fade-UI_5: -7871306334622160326
+      Transparent-Fade-UI_6: -8734573020843488965
+      Transparent-Fade-UI_7: 8782245760502237443
+      Transparent-Fade-UI_8: 2949419506418580591
+      Transparent-Fade-UI_9: -8396276180686831211
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
