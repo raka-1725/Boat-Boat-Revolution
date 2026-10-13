@@ -9,6 +9,10 @@ public class SGameManager : MonoBehaviour
     [SerializeField] private int ScoreThreshold = 100;
     
     [SerializeField] private SUIManager UIManager;
+    
+    [SerializeField] private bool bPaused = false;
+    public bool IsPaused() => bPaused;
+    
 
     private void Awake()
     {
@@ -34,5 +38,15 @@ public class SGameManager : MonoBehaviour
     public void CountDown(int count)
     {
         UIManager.UpdateCountDown(count);
+    }
+
+    public void PauseGame(bool bPause)
+    {
+        bPaused = bPause;
+        
+        //UI pause here
+        Debug.Log("Paused: " + bPaused);
+        Time.timeScale = bPaused ? 0 : 1;
+        
     }
 }

@@ -136,6 +136,15 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""1ad9aa38-efb6-412b-844b-23b758615c58"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -193,6 +202,17 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
                     ""action"": ""All_Lane"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4490c067-1676-4afa-8fc6-c69ba357ae6b"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -206,6 +226,7 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
         m_Player_Lane3 = m_Player.FindAction("Lane3", throwIfNotFound: true);
         m_Player_Lane4 = m_Player.FindAction("Lane4", throwIfNotFound: true);
         m_Player_All_Lane = m_Player.FindAction("All_Lane", throwIfNotFound: true);
+        m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
     }
 
     ~@MusicGame_InputActions()
@@ -291,6 +312,7 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
     private readonly InputAction m_Player_Lane3;
     private readonly InputAction m_Player_Lane4;
     private readonly InputAction m_Player_All_Lane;
+    private readonly InputAction m_Player_Pause;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -322,6 +344,10 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
         /// Provides access to the underlying input action "Player/All_Lane".
         /// </summary>
         public InputAction @All_Lane => m_Wrapper.m_Player_All_Lane;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Pause".
+        /// </summary>
+        public InputAction @Pause => m_Wrapper.m_Player_Pause;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -363,6 +389,9 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
             @All_Lane.started += instance.OnAll_Lane;
             @All_Lane.performed += instance.OnAll_Lane;
             @All_Lane.canceled += instance.OnAll_Lane;
+            @Pause.started += instance.OnPause;
+            @Pause.performed += instance.OnPause;
+            @Pause.canceled += instance.OnPause;
         }
 
         /// <summary>
@@ -389,6 +418,9 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
             @All_Lane.started -= instance.OnAll_Lane;
             @All_Lane.performed -= instance.OnAll_Lane;
             @All_Lane.canceled -= instance.OnAll_Lane;
+            @Pause.started -= instance.OnPause;
+            @Pause.performed -= instance.OnPause;
+            @Pause.canceled -= instance.OnPause;
         }
 
         /// <summary>
@@ -464,5 +496,12 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnAll_Lane(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Pause" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnPause(InputAction.CallbackContext context);
     }
 }

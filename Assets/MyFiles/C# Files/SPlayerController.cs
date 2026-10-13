@@ -17,6 +17,9 @@ public class SPlayerController : MonoBehaviour
         
         inputActions.Player.All_Lane.performed += context => PerformHitNote(context, 0);
         
+        inputActions.Player.Pause.performed += PerformPause;
+        
+        
         inputActions.Player.Lane1.performed += context => KeyPressed(context, 1);
         inputActions.Player.Lane2.performed += context => KeyPressed(context, 2);
         inputActions.Player.Lane3.performed += context => KeyPressed(context, 3);
@@ -43,6 +46,13 @@ public class SPlayerController : MonoBehaviour
     {
         if (laneIndex == 0) return;
         accDetect.HitNote(laneIndex);
+    }
+
+    private void PerformPause(InputAction.CallbackContext context)
+    {
+        SGameManager gameManager = GameObject.Find("GameManager").GetComponent<SGameManager>();
+        if(!gameManager.IsPaused()) gameManager.PauseGame(true);
+        else gameManager.PauseGame(false);
     }
 
     private void KeyPressed(InputAction.CallbackContext context, int laneIndex)
