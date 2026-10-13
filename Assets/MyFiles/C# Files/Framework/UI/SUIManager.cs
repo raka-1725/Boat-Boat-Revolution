@@ -23,6 +23,9 @@ public class SUIManager : MonoBehaviour
     [Header("CountDown")]
     [SerializeField] private Image CountDownBG;
     [SerializeField] private TextMeshProUGUI CountDownText;
+    
+    [Header("PauseMenu")]
+    [SerializeField] private GameObject PauseMenu;
 
     private void OnEnable()
     {
@@ -154,5 +157,10 @@ public class SUIManager : MonoBehaviour
         CountDownBG.gameObject.SetActive(false);
         CountDownText.gameObject.SetActive(false);
         yield return null;
+    }
+
+    public void PauseUI(bool bPause)
+    {
+        PauseMenu.SetActive(bPause ? true : false);
     }
 }
