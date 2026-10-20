@@ -36,6 +36,10 @@ public class SScoreManager : MonoBehaviour
     public void AddScore(int scoreToAdd)
     {
         Score += scoreToAdd;
+        if (Score < 0)
+        {
+            Score = 0;
+        }
         OnScoreChange?.Invoke(Score);
         //Debug.Log($"Score {Score}");
     }

@@ -26,6 +26,17 @@ public class SUIManager : MonoBehaviour
     
     [Header("PauseMenu")]
     [SerializeField] private GameObject PauseMenu;
+    
+    [Header("HitResult")]
+    [SerializeField] private TextMeshProUGUI HitResultText;
+    [SerializeField] private float Duration = 0.5f;
+    [SerializeField] private Color PerfectColor;
+    [SerializeField] private Color ExcellentColor;
+    [SerializeField] private Color GoodColor;
+    [SerializeField] private Color MissedColor;
+    
+    private Coroutine clearTextCoroutine;
+    
 
     private void OnEnable()
     {
@@ -162,5 +173,43 @@ public class SUIManager : MonoBehaviour
     public void PauseUI(bool bPause)
     {
         PauseMenu.SetActive(bPause ? true : false);
+    }
+    
+    public void UpdateHitResultText(string text)
+    {
+        HitResultText.text = text;
+        Debug.Log(text);
+        if (text == "PERFECT")
+        {
+            HitResultText.color = PerfectColor;
+        }
+        else if (text == "EXCELLENT")
+        {
+            HitResultText.color = ExcellentColor;
+        }
+        else if (text == "GOOD")
+        {
+            HitResultText.color = GoodColor;
+        }
+        else if (text == "MISS")
+        {
+            HitResultText.color = MissedColor;
+        }
+        else
+        {
+            HitResultText.color = Color.white;
+        }
+        if (clearTextCoroutine != null)
+        {
+            StopCoroutine(clearTextCoroutine);
+        }
+        clearTextCoroutine = StartCoroutine(ClearTextAfterDelay());
+    }
+    
+    private IEnumerator ClearTextAfterDelay()
+    {
+        yield return new WaitForSeconds(Duration);
+        HitResultText.text = "";
+        clearTextCoroutine = null;
     }
 }

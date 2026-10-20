@@ -151,7 +151,7 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""ef2cc212-ccf2-445f-acfb-64db372f5c11"",
-                    ""path"": ""<Keyboard>/5"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -162,7 +162,7 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""d00f5b43-5660-4a05-b22a-64bdd3682823"",
-                    ""path"": ""<Keyboard>/t"",
+                    ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -173,7 +173,7 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""9b6d6294-aadc-42e3-a6e7-dfc04fd202f4"",
-                    ""path"": ""<Keyboard>/g"",
+                    ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -184,7 +184,7 @@ public partial class @MusicGame_InputActions: IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""9642106e-11a9-439c-8198-302189f2fb09"",
-                    ""path"": ""<Keyboard>/b"",
+                    ""path"": ""<Keyboard>/f"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

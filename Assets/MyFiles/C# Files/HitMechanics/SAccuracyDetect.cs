@@ -10,9 +10,11 @@ public class SAccuracyDetect : MonoBehaviour
     [SerializeField] private int normalAddGood = 3;
     [SerializeField] private int normalAddPerfect = 10;
     [SerializeField] private int highAdd = 20;
-    
+
+    [SerializeField] private SUIManager UIManager;
     private void Awake()
     {
+        UIManager = FindAnyObjectByType<SUIManager>();
     }
 
     public void HitNote(int laneIndex)
@@ -46,7 +48,8 @@ public class SAccuracyDetect : MonoBehaviour
         if ((z1 && z2))
         {
             scoreToAdd = normalAddPerfect - normalAddGood;
-            Debug.LogWarning($"Note hit EXCELLENT");
+            //Debug.LogWarning($"Note hit EXCELLENT");
+            UIManager.UpdateHitResultText("EXCELLENT");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
             SScoreManager.ScoreInstance.AddCombo(1);
             
@@ -56,7 +59,8 @@ public class SAccuracyDetect : MonoBehaviour
         else if ((z2 && z3))
         {
             scoreToAdd = normalAddPerfect - normalAddGood;
-            Debug.LogWarning($"Note hit EXCELLENT");
+            //Debug.LogWarning($"Note hit EXCELLENT");
+            UIManager.UpdateHitResultText("EXCELLENT");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
             SScoreManager.ScoreInstance.AddCombo(1);
             
@@ -66,7 +70,8 @@ public class SAccuracyDetect : MonoBehaviour
         else if(z1 || z3)
         {
             scoreToAdd = normalAddGood;
-            Debug.LogWarning($"Note hit GOOD");
+            //Debug.LogWarning($"Note hit GOOD");
+            UIManager.UpdateHitResultText("GOOD");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
             SScoreManager.ScoreInstance.AddCombo(1);
             DestroyNode(laneIndex, 0);
@@ -77,14 +82,15 @@ public class SAccuracyDetect : MonoBehaviour
         {
             if(bHigh) scoreToAdd = scoreToAddHigh;
             scoreToAdd = normalAddPerfect;
-            Debug.LogWarning($"Note hit PERFECT");
+            //Debug.LogWarning($"Note hit PERFECT");
+            UIManager.UpdateHitResultText("PERFECT");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
             SScoreManager.ScoreInstance.AddCombo(1);
             DestroyNode(laneIndex, 1);
         }
         else
         {
-            Debug.Log($"Note Missed");
+            //Debug.Log($"Note Missed");
         }
     }
 
