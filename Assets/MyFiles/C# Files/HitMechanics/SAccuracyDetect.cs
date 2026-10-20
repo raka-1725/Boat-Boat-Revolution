@@ -10,8 +10,14 @@ public class SAccuracyDetect : MonoBehaviour
     [SerializeField] private int normalAddGood = 3;
     [SerializeField] private int normalAddPerfect = 10;
     [SerializeField] private int highAdd = 20;
-
+    
+    [Header("UI")]
     [SerializeField] private SUIManager UIManager;
+    
+    [Header("Audio")]
+    [SerializeField] private AudioSource normalBell;
+    [SerializeField] private AudioSource highBell;
+    
     private void Awake()
     {
         UIManager = FindAnyObjectByType<SUIManager>();
@@ -80,8 +86,16 @@ public class SAccuracyDetect : MonoBehaviour
         }
         else if(z2)
         {
-            if(bHigh) scoreToAdd = scoreToAddHigh;
-            scoreToAdd = normalAddPerfect;
+            if(bHigh)
+            {
+                scoreToAdd = scoreToAddHigh;
+                highBell.Play();
+            }
+            else
+            {
+                scoreToAdd = normalAddPerfect;
+                normalBell.Play();
+            }
             //Debug.LogWarning($"Note hit PERFECT");
             UIManager.UpdateHitResultText("PERFECT");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
