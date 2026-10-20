@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 849c703deb2b0bc46abf43b29c72329e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SNote
-  speed: 7
+  speed: 6
   SR: {fileID: 1704493381863520953}
   NormalNoteColor: {r: 1, g: 1, b: 1, a: 1}
   HighNoteColor: {r: 1, g: 0.6290647, b: 0, a: 1}

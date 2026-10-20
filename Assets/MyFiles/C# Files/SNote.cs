@@ -53,10 +53,18 @@ public class SNote : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 targetSPD = -transform.forward * speed;
+        Vector3 targetSPD = Vector3.left * speed;
 
         rb.linearVelocity = new Vector3(targetSPD.x, rb.linearVelocity.y, targetSPD.z);
-        
+        /*
+        Vector3 direction = Vector3.back * speed;
+
+        rb.linearVelocity = new Vector3(
+            direction.x,
+            rb.linearVelocity.y,
+            direction.z
+        );
+        */
         //Debug.Log($"targetSPD: {targetSPD}");
     }
 }
