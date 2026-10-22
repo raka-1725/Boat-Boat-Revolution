@@ -32,7 +32,7 @@ public class SGameEndUI : MonoBehaviour
     public void ActiveContent(bool bActive)
     {
         content.SetActive(bActive);
-        Image.SetActive(bActive);
+        //Image.SetActive(bActive);
         Debug.Log(bActive);
     }
     
