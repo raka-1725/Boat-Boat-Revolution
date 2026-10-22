@@ -27,7 +27,7 @@ public class SScoreManager : MonoBehaviour
 
         SetUI();
 
-        Score = 999999;
+        //Score = 999999;
     }
 
     private void SetUI()

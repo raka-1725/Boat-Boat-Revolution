@@ -7,9 +7,9 @@ public class SAccuracyDetect : MonoBehaviour
     private SNote[,] activeNotes = new SNote[4,3];
 
     [Header("Score Add settings")] 
-    [SerializeField] private int normalAddGood = 3;
-    [SerializeField] private int normalAddPerfect = 10;
-    [SerializeField] private int highAdd = 20;
+    [SerializeField] private int normalAddGood = 5;
+    [SerializeField] private int PerfectMultiplier = 2;
+    [SerializeField] private int highAdd = 10;
     
     [Header("UI")]
     [SerializeField] private SUIManager UIManager;
@@ -53,7 +53,7 @@ public class SAccuracyDetect : MonoBehaviour
 
         if ((z1 && z2))
         {
-            scoreToAdd = normalAddPerfect - normalAddGood;
+            scoreToAdd = normalAddGood;
             //Debug.LogWarning($"Note hit EXCELLENT");
             UIManager.UpdateHitResultText("EXCELLENT");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
@@ -64,7 +64,7 @@ public class SAccuracyDetect : MonoBehaviour
         }
         else if ((z2 && z3))
         {
-            scoreToAdd = normalAddPerfect - normalAddGood;
+            scoreToAdd = normalAddGood - 2;
             //Debug.LogWarning($"Note hit EXCELLENT");
             UIManager.UpdateHitResultText("EXCELLENT");
             SScoreManager.ScoreInstance.AddScore(scoreToAdd);
@@ -88,12 +88,12 @@ public class SAccuracyDetect : MonoBehaviour
         {
             if(bHigh)
             {
-                scoreToAdd = scoreToAddHigh;
+                scoreToAdd = scoreToAddHigh * PerfectMultiplier;
                 highBell.Play();
             }
             else
             {
-                scoreToAdd = normalAddPerfect;
+                scoreToAdd = normalAddGood * PerfectMultiplier;
                 normalBell.Play();
             }
             //Debug.LogWarning($"Note hit PERFECT");
