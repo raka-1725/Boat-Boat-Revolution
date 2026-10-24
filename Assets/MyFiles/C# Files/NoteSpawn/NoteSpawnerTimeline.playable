@@ -150,6 +150,21 @@ MonoBehaviour:
   m_Time: 31.21666666666667
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-8576593089860084270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 128.1833333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-8568366990770562077
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -345,6 +360,27 @@ MonoBehaviour:
     - {fileID: -2365124780845489933}
     - {fileID: -5258711391869406841}
     - {fileID: 1151788618175662162}
+    - {fileID: 4066071480052304663}
+    - {fileID: -5219322954232137943}
+    - {fileID: 7014144988646229185}
+    - {fileID: 7000594575228791200}
+    - {fileID: 2066931351347447242}
+    - {fileID: 9164229828825364340}
+    - {fileID: -8576593089860084270}
+    - {fileID: -7994145492833458552}
+    - {fileID: 1246337398277327081}
+    - {fileID: -5239099960711023066}
+    - {fileID: -521833304378392464}
+    - {fileID: 6123554420836056512}
+    - {fileID: 6375534449299330280}
+    - {fileID: -6550045533938717786}
+    - {fileID: 8544578997711833870}
+    - {fileID: 885838399297508038}
+    - {fileID: 7187126139012325639}
+    - {fileID: 6649652443359927910}
+    - {fileID: 821352588901154067}
+    - {fileID: 5485586345636657700}
+    - {fileID: 4016752063099291233}
 --- !u!114 &-8182042477023037509
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -405,6 +441,21 @@ MonoBehaviour:
   m_Time: 13.583333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-7994145492833458552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 129.36666666666673
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-7964625738658064727
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -476,6 +527,36 @@ MonoBehaviour:
   m_Name: Spawn Note Marker(Clone)(Clone)
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 61.63333333333333
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
+--- !u!114 &-7877859099520005596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 138.85
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
+--- !u!114 &-7863283992570219494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 122.23333333333335
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
 --- !u!114 &-7859086552303795614
@@ -944,6 +1025,21 @@ MonoBehaviour:
   m_Time: 96.63333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &-6728854262084904928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 141.29999999999998
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-6726619093661294961
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -957,6 +1053,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker(Clone)(Clone)
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 8.566666666666665
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
+--- !u!114 &-6709396749551499193
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 147.70000000000005
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
 --- !u!114 &-6702472079572031594
@@ -1049,6 +1160,21 @@ MonoBehaviour:
   m_Time: 34.28333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &-6550045533938717786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 137.68333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &-6547697688995596166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1386,6 +1512,21 @@ MonoBehaviour:
   m_Time: 24.483333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-5644148031489015826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 139.38333333333333
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &-5640310003685474077
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1536,6 +1677,21 @@ MonoBehaviour:
   m_Time: 118.81666666666665
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &-5239099960711023066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 135.36666666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-5222363952047317888
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1551,6 +1707,36 @@ MonoBehaviour:
   m_Time: 23.1
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-5219322954232137943
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 122.68333333333335
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
+--- !u!114 &-5149971064510558264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 132.86666666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-5107649705993202129
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1821,6 +2007,21 @@ MonoBehaviour:
   m_Time: 78.18333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-4516004455122948383
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 146.01666666666668
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-4487073798477545728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1881,6 +2082,21 @@ MonoBehaviour:
   m_Time: 16.7
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &-4314736546387106999
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 129.11666666666673
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-4209666731022551630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1894,6 +2110,36 @@ MonoBehaviour:
   m_Name: Spawn Note Marker(Clone)(Clone)
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 34.41666666666666
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &-4196021432431601177
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 120.05
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
+--- !u!114 &-4069112283038919211
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 128.63333333333338
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &-4039320438977440379
@@ -1941,6 +2187,21 @@ MonoBehaviour:
   m_Time: 5.683333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &-3939531409353010374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 136.96666666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &-3937963345539160363
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2061,6 +2322,21 @@ MonoBehaviour:
   m_Time: 20.71666666666666
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-3583355267599318720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 125.9
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-3573997869072793050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2136,6 +2412,21 @@ MonoBehaviour:
   m_Time: 31.21666666666667
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-3359761751247651270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 131.56666666666666
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-3245220821057471357
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2303,6 +2594,21 @@ MonoBehaviour:
   m_Time: 80.48333333333332
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &-2908401197929200498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 134.96666666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-2810695320541571709
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2332,6 +2638,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 111.75
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &-2764136325382079926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 145.46666666666667
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &-2761521214416050138
@@ -2394,6 +2715,21 @@ MonoBehaviour:
   m_Time: 67.9
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-2491519623953254117
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 130.8
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-2456969989569840741
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2512,6 +2848,36 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 117.75
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &-2304328267619206445
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 144.91666666666666
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &-2263730684592253429
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 133.15
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &-2261331912960338046
@@ -2649,6 +3015,21 @@ MonoBehaviour:
   m_Time: 23.1
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-1949140400447562129
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 132
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-1860115344729132636
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2679,6 +3060,21 @@ MonoBehaviour:
   m_Time: 21.983333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-1676472631034041221
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 140.48333333333332
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-1633191921576356730
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2692,6 +3088,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker(Clone)(Clone)
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 39.31666666666665
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
+--- !u!114 &-1534629428085524854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 148.28333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
 --- !u!114 &-1514942158114364497
@@ -2769,6 +3180,21 @@ MonoBehaviour:
   m_Time: 77.8
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-1406570231729574109
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 127.49999999999999
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &-1390019183472940372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2827,6 +3253,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker(Clone)(Clone)
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 6.483802932252487
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &-1253606908350396224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 134.23333333333332
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &-1247098688990644449
@@ -2904,6 +3345,21 @@ MonoBehaviour:
   m_Time: 35.983333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &-1132539481209822788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 146.76666666666668
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &-1086298928730276297
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2983,6 +3439,26 @@ MonoBehaviour:
     - {fileID: -2720688466922884950}
     - {fileID: 1241331777663678427}
     - {fileID: 8518131441839233438}
+    - {fileID: 597950114609108092}
+    - {fileID: 4512690107625952200}
+    - {fileID: -3359761751247651270}
+    - {fileID: -1949140400447562129}
+    - {fileID: -755756479495283256}
+    - {fileID: 5145566668658554011}
+    - {fileID: 5739117423824176095}
+    - {fileID: -5644148031489015826}
+    - {fileID: 6668726192337850121}
+    - {fileID: -6728854262084904928}
+    - {fileID: 7662950560282102582}
+    - {fileID: 4689378411313549367}
+    - {fileID: -298860781027112365}
+    - {fileID: 185813648640049169}
+    - {fileID: 5764671464541684174}
+    - {fileID: 8735485523320295691}
+    - {fileID: -1132539481209822788}
+    - {fileID: 5757578446401223972}
+    - {fileID: -1534629428085524854}
+    - {fileID: 369784040598280871}
 --- !u!114 &-1086126437483081408
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3013,6 +3489,21 @@ MonoBehaviour:
   m_Time: 102.8
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &-1013605448065707051
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 120.86666666666666
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-969383915392484765
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3028,6 +3519,21 @@ MonoBehaviour:
   m_Time: 19.699999999999996
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &-868461827386851608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 124.28333333333333
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &-867557566679819815
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3058,6 +3564,36 @@ MonoBehaviour:
   m_Time: 6.61713626558582
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &-781334701976291566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 127.86666666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
+--- !u!114 &-755756479495283256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 132.43333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-748245375114862180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3073,6 +3609,21 @@ MonoBehaviour:
   m_Time: 8.566666666666665
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-682182795248558932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 146.33333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-606765921249621463
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3148,6 +3699,21 @@ MonoBehaviour:
   m_Time: 99
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &-521833304378392464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 135.65
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &-431051179650788387
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3176,6 +3742,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 54.733333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &-298860781027112365
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 143.23333333333332
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &-258476680866449365
@@ -3320,6 +3901,34 @@ MonoBehaviour:
     - {fileID: 3045102510035008782}
     - {fileID: -2436323376658509841}
     - {fileID: -7774088735759648439}
+    - {fileID: -1013605448065707051}
+    - {fileID: -7863283992570219494}
+    - {fileID: 17585226791998870}
+    - {fileID: -3583355267599318720}
+    - {fileID: -4069112283038919211}
+    - {fileID: -4314736546387106999}
+    - {fileID: -2491519623953254117}
+    - {fileID: 8954448905009933803}
+    - {fileID: -5149971064510558264}
+    - {fileID: -2263730684592253429}
+    - {fileID: -1253606908350396224}
+    - {fileID: 8912701690171058017}
+    - {fileID: -2908401197929200498}
+    - {fileID: 4476191633095215939}
+    - {fileID: 6224945846153167698}
+    - {fileID: 7726412495805528296}
+    - {fileID: -7877859099520005596}
+    - {fileID: 3278867833576058430}
+    - {fileID: -1676472631034041221}
+    - {fileID: 5520964012425960620}
+    - {fileID: 1022753197535104545}
+    - {fileID: 4690574500092109828}
+    - {fileID: 8689660867616412496}
+    - {fileID: -2304328267619206445}
+    - {fileID: 8012676774497058152}
+    - {fileID: 1694550226839883302}
+    - {fileID: -682182795248558932}
+    - {fileID: -6709396749551499193}
 --- !u!114 &-48881638854390987
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3390,6 +3999,21 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 1
   m_MarkerTrack: {fileID: -7964625738658064727}
+--- !u!114 &17585226791998870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 125.41666666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &21636274101945851
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3435,6 +4059,21 @@ MonoBehaviour:
   m_Time: 7.833333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &185813648640049169
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 140.86666666666665
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &309860172373910342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3448,6 +4087,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 61.88333333333332
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
+--- !u!114 &369784040598280871
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 148.4
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
 --- !u!114 &425259675686420538
@@ -3585,6 +4239,21 @@ MonoBehaviour:
   m_Time: 68.26666666666667
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &597950114609108092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 121.3
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &607848973967544154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3690,6 +4359,21 @@ MonoBehaviour:
   m_Time: 19.699999999999996
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &804630306914540624
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 124.65
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &808859489307564886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3703,6 +4387,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker(Clone)(Clone)
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 14.299999999999999
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &821352588901154067
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 145.11666666666667
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &829535840528439062
@@ -3735,6 +4434,21 @@ MonoBehaviour:
   m_Time: 11.799999999999994
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &885838399297508038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 143.55
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &957875536085577471
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3795,6 +4509,21 @@ MonoBehaviour:
   m_Time: 60.13333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &1022753197535104545
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 142.45
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &1032812623855118776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3870,6 +4599,21 @@ MonoBehaviour:
   m_Time: 118.33333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &1246337398277327081
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 130.13333333333333
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &1472612312356923474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3930,6 +4674,21 @@ MonoBehaviour:
   m_Time: 96
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &1694550226839883302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 145.78333333333333
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &1700685457999318570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4049,6 +4808,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 86.81666666666666
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &2066931351347447242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 126.15
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &2075792790611068489
@@ -4414,6 +5188,22 @@ MonoBehaviour:
     - {fileID: 3271718129534567646}
     - {fileID: -7246830571364678945}
     - {fileID: -3386849276579727412}
+    - {fileID: -4196021432431601177}
+    - {fileID: 6002875160947708748}
+    - {fileID: 5101092731467313745}
+    - {fileID: 804630306914540624}
+    - {fileID: -868461827386851608}
+    - {fileID: 4427526531795662355}
+    - {fileID: -1406570231729574109}
+    - {fileID: -781334701976291566}
+    - {fileID: 4394549184065411485}
+    - {fileID: 5196264947463031041}
+    - {fileID: -3939531409353010374}
+    - {fileID: 5346301865204021305}
+    - {fileID: -2764136325382079926}
+    - {fileID: -4516004455122948383}
+    - {fileID: 3677069962750556929}
+    - {fileID: 3075609318516079695}
 --- !u!114 &3045102510035008782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4444,6 +5234,21 @@ MonoBehaviour:
   m_Time: 28.116666666666667
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &3075609318516079695
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 148.4
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &3130108661376494899
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4474,6 +5279,21 @@ MonoBehaviour:
   m_Time: 116.83333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &3278867833576058430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 140.1
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &3400185131725746950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4564,6 +5384,21 @@ MonoBehaviour:
   m_Time: 104.39999999999999
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &3677069962750556929
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 148.28333333333333
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &3762071272354259124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4669,6 +5504,21 @@ MonoBehaviour:
   m_Time: 24.4
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &4016752063099291233
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 148.15000000000003
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &4031383984963781985
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4682,6 +5532,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 6.483802932252487
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &4066071480052304663
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 120.46666666666668
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &4085157955997866390
@@ -4774,6 +5639,36 @@ MonoBehaviour:
   m_Time: 35.983333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &4394549184065411485
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 129.83333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &4427526531795662355
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 127.15
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &4448174269358326383
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4817,6 +5712,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 72.75
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &4476191633095215939
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 135.88333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &4487488108243427014
@@ -4894,6 +5804,21 @@ MonoBehaviour:
   m_Time: 44.25
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &4512690107625952200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 121.75000000000001
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &4591237033013014271
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4909,6 +5834,36 @@ MonoBehaviour:
   m_Time: 20.583333333333332
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &4689378411313549367
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 142.76666666666665
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &4690574500092109828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 143.3
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &4733919278353179017
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5060,6 +6015,21 @@ MonoBehaviour:
   m_Time: 11.799999999999994
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &5101092731467313745
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 123.93333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &5138039083816798474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5076,6 +6046,36 @@ MonoBehaviour:
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 63de4ad19fc053e49baabc0bfe2ceab5, type: 2}
+--- !u!114 &5145566668658554011
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 133.46666666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &5196264947463031041
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 137.28333333333333
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &5225327319349182597
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5119,6 +6119,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 91.76666666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &5346301865204021305
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 144.01666666666662
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &5350909403380726630
@@ -5181,6 +6196,36 @@ MonoBehaviour:
   m_Time: 83.23333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &5485586345636657700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 145.78333333333333
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &5520964012425960620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 142.16666666666666
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &5708635382936126167
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5209,6 +6254,51 @@ MonoBehaviour:
   m_Name: Spawn Note Marker(Clone)(Clone)
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 18.466666666666665
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &5739117423824176095
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 133.93333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &5757578446401223972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 147.2166666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
+--- !u!114 &5764671464541684174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 145.46666666666667
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &5804639060663722349
@@ -5301,6 +6391,21 @@ MonoBehaviour:
   m_Time: 46.58333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &6002875160947708748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 123.11666666666666
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &6035744512209612208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5331,6 +6436,21 @@ MonoBehaviour:
   m_Time: 39.06666666666666
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &6123554420836056512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 136.63333333333333
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &6166182706625234436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5344,6 +6464,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 102.43333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &6224945846153167698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 136.18333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &6227356353504776042
@@ -5361,6 +6496,21 @@ MonoBehaviour:
   m_Time: 112.33333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &6375534449299330280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 136.4
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &6435729668728096458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5436,6 +6586,21 @@ MonoBehaviour:
   m_Time: 21.983333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &6649652443359927910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 144.91666666666666
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &6668571521796584826
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5451,6 +6616,21 @@ MonoBehaviour:
   m_Time: 16.7
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &6668726192337850121
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 139.63333333333333
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &6759346572754773169
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5571,6 +6751,36 @@ MonoBehaviour:
   m_Time: 15.683333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
+--- !u!114 &7000594575228791200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 124.96666666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &7014144988646229185
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 123.45
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &7056154120182656023
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5631,6 +6841,21 @@ MonoBehaviour:
   m_Time: 60.13333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &7187126139012325639
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 144.3166666666666
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &7201035609619389649
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5826,6 +7051,36 @@ MonoBehaviour:
   m_Time: 53.5
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &7662950560282102582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 141.73333333333332
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &7726412495805528296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 138.6
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &7783679105248626436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5869,6 +7124,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 106
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &8012676774497058152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 145.11666666666667
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &8021973163180231991
@@ -6036,6 +7306,21 @@ MonoBehaviour:
   m_Time: 119.83333333333333
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &8544578997711833870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 137.96666666666667
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 2
 --- !u!114 &8558194263937079004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6081,6 +7366,36 @@ MonoBehaviour:
   m_Time: 103.5
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &8689660867616412496
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 144.68333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &8735485523320295691
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 146.01666666666668
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &8838163636569888495
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6141,6 +7456,21 @@ MonoBehaviour:
   m_Time: 57.333333333333336
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 2
+--- !u!114 &8912701690171058017
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 134.51666666666665
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
 --- !u!114 &8945736136737907859
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6169,6 +7499,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker(Clone)(Clone)
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 5.683333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &8954448905009933803
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 131.18333333333334
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &8963480577052612400
@@ -6260,6 +7605,21 @@ MonoBehaviour:
   m_Name: Spawn Note Marker
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
   m_Time: 35.983333333333334
+  NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
+  NoteType: 1
+--- !u!114 &9164229828825364340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b556597f05f274cab25f5e450c98cb, type: 3}
+  m_Name: Spawn Note Marker
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnNoteMarker
+  m_Time: 126.66666666666667
   NotePrefab: {fileID: 2243700013797389377, guid: 1cd2e87937ac486408ffaf7ba9f041a7, type: 3}
   NoteType: 1
 --- !u!114 &9212232475912016835
