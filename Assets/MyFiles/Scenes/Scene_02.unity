@@ -4462,7 +4462,7 @@ MonoBehaviour:
   PlayableDirector: {fileID: 1755883622}
   CountDownBG: {fileID: 1345863347}
   CountDownText: {fileID: 937831936}
-  PreGameHUD: {fileID: 0}
+  PreGameHUD: {fileID: 979324341}
   PauseMenu: {fileID: 1442218489}
   HitResultText: {fileID: 1924667231}
   Duration: 0.5

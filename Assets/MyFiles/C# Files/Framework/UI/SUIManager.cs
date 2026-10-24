@@ -142,6 +142,7 @@ public class SUIManager : MonoBehaviour
     {
         CountDownBG.gameObject.SetActive(true);
         CountDownText.gameObject.SetActive(true);
+        PreGameHUD.SetActive(true);
         CountDownText.text = "3";
     }
 
@@ -168,6 +169,7 @@ public class SUIManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         CountDownBG.gameObject.SetActive(false);
         CountDownText.gameObject.SetActive(false);
+        PreGameHUD.SetActive(false);
         yield return null;
     }
 
