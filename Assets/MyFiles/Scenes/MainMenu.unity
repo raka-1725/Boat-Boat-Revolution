@@ -147,9 +147,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 5083621655005600431, guid: 84075393319ebcf4998dbac633f0c0f1, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 697589a3c49e084449533205bcf27646, type: 3}
+  m_Resource: {fileID: 8300000, guid: e56bf78d619b9ce408eac8587510db66, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.403
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
   m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.566
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -2291,8 +2291,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 137847730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5655655, y: 0}
-  m_AnchorMax: {x: 0.5655655, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 7.65}
   m_SizeDelta: {x: 70, y: -4.5}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2536,7 +2536,7 @@ MonoBehaviour:
   m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.566
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -2620,7 +2620,7 @@ RectTransform:
   m_Father: {fileID: 214400219}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.5655655, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2695,7 +2695,7 @@ RectTransform:
   m_Father: {fileID: 427807852}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.5655655, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2857,7 +2857,7 @@ RectTransform:
   m_Father: {fileID: 1382053003}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.5655655, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2931,8 +2931,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 79915859}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5655655, y: 0}
-  m_AnchorMax: {x: 0.5655655, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 7.65}
   m_SizeDelta: {x: 70, y: -4.5}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3715,8 +3715,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 767714314}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5655655, y: 0}
-  m_AnchorMax: {x: 0.5655655, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 7.65}
   m_SizeDelta: {x: 70, y: -4.5}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3845,7 +3845,7 @@ MonoBehaviour:
   m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.566
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
