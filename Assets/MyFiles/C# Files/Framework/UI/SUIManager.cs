@@ -23,6 +23,7 @@ public class SUIManager : MonoBehaviour
     [Header("CountDown")]
     [SerializeField] private Image CountDownBG;
     [SerializeField] private TextMeshProUGUI CountDownText;
+    [SerializeField] private GameObject PreGameHUD;
     
     [Header("PauseMenu")]
     [SerializeField] private GameObject PauseMenu;
